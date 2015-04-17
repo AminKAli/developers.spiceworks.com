@@ -1,6 +1,6 @@
 (function() {
   (function($) {
-    return developers['how-it-works'] = {
+    return developers.support = {
       faq: {
         init: function() {
           return $('.faq').children('li').click(function() {

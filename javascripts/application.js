@@ -17049,7 +17049,7 @@ jQuery( document ).ready( onReady.init );
 }(jQuery));
 (function() {
   (function($) {
-    return developers['how-it-works'] = {
+    return developers.support = {
       faq: {
         init: function() {
           return $('.faq').children('li').click(function() {
@@ -17101,13 +17101,6 @@ jQuery( document ).ready( onReady.init );
   })(jQuery);
 
 }).call(this);
-!function($){
-  developers.support = {
-    init: function(){
-      developers.contact_form.init();
-    }
-  }
-}(jQuery);
 /*
  * zClip :: jQuery ZeroClipboard v1.1.1
  * http://steamdev.com/zclip

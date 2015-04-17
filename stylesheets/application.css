@@ -16459,6 +16459,14 @@ textarea {
   min-height: 6em; }
 
 /* line 26, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+ol li {
+  list-style: decimal; }
+
+/* line 30, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+ol {
+  margin-left: 25px; }
+
+/* line 34, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 button, .btn, input[type="submit"] {
   background-color: #d3d3d3;
   border: 1px solid rgba(211, 211, 211, 0.5);
@@ -16471,140 +16479,140 @@ button, .btn, input[type="submit"] {
   min-height: 1.8em;
   min-width: 1.8em;
   font-size: 1.4em; }
-  /* line 39, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 47, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   button:hover, button .hover, button:active, .btn:hover, .btn .hover, .btn:active, input[type="submit"]:hover, input[type="submit"] .hover, input[type="submit"]:active {
     background-color: #b9b9b9;
     color: inherit; }
 
-/* line 45, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 53, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .btn-blue, body.documentation_index section.features figure.square .btn {
   border-color: #2C92D7;
   background-color: #2C92D7;
   color: #fff; }
-  /* line 50, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 58, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .btn-blue:hover, body.documentation_index section.features figure.square .btn:hover {
     background-color: #57a8df; }
 
-/* line 55, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 63, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .btn-orange {
   border-color: rgba(245, 130, 32, 0.5);
   background-color: #F58220;
   color: #fff; }
-  /* line 60, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 68, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .btn-orange:hover {
     background-color: #f79d51;
     color: #FFF; }
-  /* line 64, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 72, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .btn-orange.is-outlined {
     background-color: transparent;
     border-color: #F58220; }
-    /* line 68, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 76, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     .btn-orange.is-outlined:hover {
       background-color: #F58220; }
 
-/* line 74, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 82, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 a .arrows {
   font-size: .5em;
   vertical-align: middle; }
 
-/* line 80, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 88, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .icon.small {
   height: 16px; }
 
-/* line 84, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 92, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 html {
   font-weight: 300;
   font-size: 18px; }
 
-/* line 89, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 97, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 body {
   min-width: 1070px;
   color: #5d5d5d; }
 
-/* line 95, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 103, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 footer {
   background-color: #282d30;
   color: rgba(255, 255, 255, 0.5);
   text-align: left;
   padding-top: 50px; }
-  /* line 96, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 104, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   footer .sui-fluid-container {
     padding: 0 25px; }
-  /* line 105, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 113, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   footer .spiceworks-brand {
     display: block;
     margin-bottom: 36px; }
-  /* line 110, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 118, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   footer .mid-section {
     padding-bottom: 56px;
     border-bottom: 1px solid black; }
-    /* line 114, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 122, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .mid-section .copy-wrapper {
       float: left;
       width: 760px; }
-    /* line 118, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 126, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .mid-section .button-wrapper {
       float: right;
       width: 30%;
       text-align: right; }
-    /* line 124, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 132, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .mid-section a .arrows {
       font-size: .8em;
       position: relative;
       top: -2px; }
-    /* line 130, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 138, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .mid-section .btn {
       width: 180px;
       height: 40px;
       padding: .35em 0;
       font-size: 1.2em; }
-  /* line 138, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 146, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   footer .bottom-section {
     padding: 18px 0 10px; }
-    /* line 142, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 150, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .bottom-section .copyright {
       float: left; }
-    /* line 145, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 153, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     footer .bottom-section .footer-links {
       float: right; }
-      /* line 148, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+      /* line 156, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
       footer .bottom-section .footer-links li {
         display: inline-block;
         vertical-align: top;
         margin-left: 30px; }
-        /* line 153, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+        /* line 161, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
         footer .bottom-section .footer-links li a {
           color: inherit; }
 
-/* line 163, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 171, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   line-height: 1.5rem; }
 
-/* line 168, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 176, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 p {
   line-height: 1.5em; }
 
-/* line 172, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 180, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 ul, ol {
   line-height: 1.3rem; }
 
-/* line 176, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 184, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .clear {
   clear: both;
   margin: 0 !important; }
 
-/* line 178, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 186, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .medium-blue-link, body.index section.app-center a, body.documentation_index section.features figure.horizontal a {
   color: #2C92D7;
   font-size: 1.1em;
   margin-top: 2em; }
-  /* line 183, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 191, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .medium-blue-link span, body.index section.app-center a span, body.documentation_index section.features figure.horizontal a span {
     font-size: .6em;
     vertical-align: middle; }
 
-/* line 189, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 197, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .divider-shadow {
   margin-left: -30px;
   margin-right: -30px;
@@ -16614,82 +16622,82 @@ ul, ol {
   background-position: center;
   border-bottom: 0; }
 
-/* line 200, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 208, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal {
   width: 100%;
   background: transparent;
   border-color: transparent; }
 
-/* line 205, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 213, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal.fade.in {
   top: 50px; }
 
-/* line 209, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 217, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal-dialog {
   width: 340px; }
 
-/* line 212, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 220, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal-header {
   position: relative; }
 
-/* line 215, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 223, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal-header button.close, .modal-header button.close:hover {
   position: absolute;
   right: -3px;
   top: 0; }
 
-/* line 220, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 228, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .modal .form-messages .msg {
   display: none;
   text-align: left; }
-  /* line 224, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 232, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .modal .form-messages .msg .signature {
     margin-bottom: 0; }
 
-/* line 229, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 237, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .mktoForm {
   width: 100%;
   margin-right: 0; }
 
-/* line 233, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 241, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .mktoForm .mktoRequiredField label.mktoLabel, .mktoForm .mktoLabel {
   width: 120px !important; }
 
-/* line 236, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 244, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .mktoForm .mktoRadioList > input, .mktoForm .mktoCheckboxList > input {
   width: auto !important; }
 
-/* line 239, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 247, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .mktoForm .mktoRadioList > label, .mktoForm .mktoCheckboxList > label {
   font-weight: normal;
   vertical-align: middle;
   margin-top: 0; }
 
-/* line 245, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 253, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .CodeRay .line-numbers {
   margin-right: 1em; }
 
-/* line 250, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 258, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .full-width {
   margin-top: 47px; }
 
-/* line 253, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 261, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .with-left-sidebar, aside {
   float: left;
   margin-bottom: 46px; }
 
-/* line 258, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 266, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .aside-wrapper {
   float: left;
   width: 292px;
   min-height: 1px; }
 
-/* line 264, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 272, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 aside > nav.sidebar {
   margin-right: 50px;
   width: 242px;
   border: 1px solid lightgray; }
-  /* line 269, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 277, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar h4 {
     background-color: #ededed;
     margin: 0;
@@ -16698,7 +16706,7 @@ aside > nav.sidebar {
     font-weight: 400;
     border-bottom: 1px solid lightgray;
     color: rgba(51, 51, 51, 0.5); }
-    /* line 278, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 286, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     aside > nav.sidebar h4:before {
       content: '';
       display: block;
@@ -16710,18 +16718,18 @@ aside > nav.sidebar {
       position: relative;
       left: -.4em;
       top: 8px; }
-  /* line 292, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 300, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar ul {
     margin: 17px 0; }
-  /* line 298, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 306, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar li.active > a {
     font-weight: 600; }
-  /* line 303, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 311, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar li.active > a, aside > nav.sidebar li:hover > a {
     border-color: #9d9d9d;
     text-decoration: none;
     color: inherit; }
-  /* line 310, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 318, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar li a {
     display: block;
     color: #333333;
@@ -16731,95 +16739,95 @@ aside > nav.sidebar {
     border-left: 3px solid transparent;
     padding: 0em .2em 0em 1em;
     margin: 10px 0; }
-    /* line 320, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 328, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     aside > nav.sidebar li a:hover {
       background-color: inherit; }
-  /* line 325, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 333, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar li .submenu {
     display: none; }
-    /* line 328, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 336, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     aside > nav.sidebar li .submenu .nav {
       margin: 0; }
-  /* line 333, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 341, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   aside > nav.sidebar li.active > .submenu {
     display: block;
     margin-top: -10px; }
-    /* line 337, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+    /* line 345, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
     aside > nav.sidebar li.active > .submenu li a {
       margin: 5px 0;
       padding-left: 30px;
       color: #999999;
       font-size: 11px; }
-      /* line 343, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+      /* line 351, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
       aside > nav.sidebar li.active > .submenu li a:hover {
         text-decoration: underline; }
 
-/* line 351, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 359, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 main.with-left-sidebar {
   width: -webkit-calc(100% - 242px - 50px);
   width: calc(100% - 242px - 50px);
   min-width: 850px; }
 
-/* line 356, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 364, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300; }
 
-/* line 362, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 370, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 section .sui-fluid-container {
   padding: 3em 25px; }
 
-/* line 366, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 374, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .content-wrapper {
   margin-top: 47px; }
 
-/* line 371, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 379, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .sui-fluid-container {
   padding: 40px 25px; }
 
-/* line 375, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 383, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .with-sidebar.with-breadcrumbs {
-  padding-top: 15px; }
-  /* line 378, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  margin-top: -25px; }
+  /* line 386, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .with-sidebar.with-breadcrumbs .breadcrumbs {
     margin-bottom: 25px; }
-  /* line 382, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 390, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .with-sidebar.with-breadcrumbs .with-left-sidebar, .with-sidebar.with-breadcrumbs aside {
     margin-top: 0; }
 
-/* line 390, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 398, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .breadcrumbs li {
   display: inline-block;
   font-size: .9em; }
-  /* line 394, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 402, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .breadcrumbs li:after {
     content: '❯';
     margin: 0 8px;
     font-size: .9em;
     opacity: .8; }
-  /* line 401, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 409, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   .breadcrumbs li:last-of-type:after {
     display: none; }
 
-/* line 407, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 415, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .affix {
   top: 72px; }
 
-/* line 411, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 419, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 .affix-bottom {
   position: absolute; }
 
-/* line 415, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+/* line 423, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
 section.intro {
   text-align: center; }
-  /* line 418, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 426, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   section.intro h1 {
     margin-top: 0;
     margin-bottom: 22px; }
-  /* line 422, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 430, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   section.intro h2 {
     font-size: 1.6em; }
-  /* line 426, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
+  /* line 434, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_shared.scss */
   section.intro .divider-shadow {
     margin-top: 32px; }
 
@@ -17017,19 +17025,6 @@ body.documentation_index {
   margin-top: -47px;
   padding-top: 67px; }
 
-/* line 2, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-body.support section.intro {
-  padding-top: 24px;
-  padding-bottom: 0;
-  border: none; }
-  /* line 7, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  body.support section.intro .sui-fluid-container {
-    padding-bottom: 0; }
-/* line 12, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-body.support h1 {
-  text-align: left;
-  margin-bottom: 0;
-  padding-bottom: 1em; }
 /* line 14, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 body.support .columns-wrapper:before, body.support .columns-wrapper:after {
   content: " ";
@@ -17037,37 +17032,37 @@ body.support .columns-wrapper:before, body.support .columns-wrapper:after {
 /* line 19, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 body.support .columns-wrapper:after {
   clear: both; }
-/* line 22, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+/* line 7, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
 body.support .column {
   float: left;
   width: 28.6%;
   margin-right: 7%; }
-  /* line 27, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  /* line 12, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   body.support .column:last-of-type {
     margin-right: 0;
     padding-left: 4%; }
-  /* line 32, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  /* line 17, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   body.support .column h2 {
     margin-top: 0;
     font-size: 1.6em;
     margin-bottom: 1.2em; }
-  /* line 38, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  /* line 23, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   body.support .column p, body.support .column a {
     font-size: 1.2em;
     line-height: 2em; }
 
-/* line 47, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-body.how-it-works_faq section.faq ul li {
+/* line 32, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+body.support_faq section.faq ul li {
   margin-bottom: .6em; }
-  /* line 50, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  body.how-it-works_faq section.faq ul li h4 {
+  /* line 35, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  body.support_faq section.faq ul li h4 {
     font-size: 1.1em;
     cursor: pointer; }
-    /* line 53, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-    body.how-it-works_faq section.faq ul li h4:hover {
+    /* line 38, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+    body.support_faq section.faq ul li h4:hover {
       text-decoration: underline; }
-    /* line 54, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-    body.how-it-works_faq section.faq ul li h4:before {
+    /* line 39, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+    body.support_faq section.faq ul li h4:before {
       display: inline-block;
       content: '►';
       width: 1rem;
@@ -17075,18 +17070,18 @@ body.how-it-works_faq section.faq ul li {
       padding-right: .8em;
       position: relative;
       top: -.2em; }
-  /* line 65, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  body.how-it-works_faq section.faq ul li p {
+  /* line 50, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  body.support_faq section.faq ul li p {
     display: none;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margn-bottom: 2rem;
     font-size: .9em;
     cursor: default; }
-  /* line 74, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  body.how-it-works_faq section.faq ul li.on h4:before {
+  /* line 59, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  body.support_faq section.faq ul li.on h4:before {
     content: '▼'; }
-  /* line 75, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  body.how-it-works_faq section.faq ul li.on p {
+  /* line 60, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  body.support_faq section.faq ul li.on p {
     display: block; }
 
 /* line 1, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_downloads.scss */
