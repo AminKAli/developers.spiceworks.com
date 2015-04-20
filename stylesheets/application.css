@@ -17097,27 +17097,27 @@ body.support_faq section.faq ul li {
     display: block; }
 
 /* line 67, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-.contact-support .mktoGutter, .contact-support .mktoOffset, .contact-support .mktoLabel {
+.contact-support .mktoGutter, .contact-support .mktoOffset {
   display: none; }
 /* line 71, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
 .contact-support .mktoForm {
   width: 100%; }
   /* line 74, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  .contact-support .mktoForm .mktoRequiredField .mktoAsterix {
+    display: none; }
+  /* line 78, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   .contact-support .mktoForm .mktoFieldWrap, .contact-support .mktoForm .mktoFormCol {
     width: 100%; }
-  /* line 78, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  /* line 82, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   .contact-support .mktoForm .mktoField {
     width: 100% !important;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 20px; }
-  /* line 86, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
+  /* line 90, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
   .contact-support .mktoForm .mktoButtonWrap {
     margin-left: 0 !important; }
-  /* line 90, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_support.scss */
-  .contact-support .mktoForm #FirstName {
-    placeholder: "First Name"; }
 
 /* line 1, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_downloads.scss */
 .download-box_icon {
