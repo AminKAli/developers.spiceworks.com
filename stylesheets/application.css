@@ -17026,6 +17026,16 @@ body.documentation_index {
 .doc-content h1, .doc-content h2, .doc-content h3, .doc-content h4 {
   margin-top: -47px;
   padding-top: 67px; }
+/* line 124, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_documentation.scss */
+.doc-content ol, .doc-content dl, .doc-content ul, .doc-content table, .doc-content pre, .doc-content blockquote {
+  margin-bottom: 10px; }
+/* line 128, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_documentation.scss */
+.doc-content ul {
+  padding-left: 2em;
+  margin-bottom: 16px; }
+  /* line 132, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_documentation.scss */
+  .doc-content ul li {
+    list-style-type: disc; }
 
 /* line 14, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 body.support .columns-wrapper:before, body.support .columns-wrapper:after {
