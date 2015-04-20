@@ -77,7 +77,7 @@
 <h3 id="what-are-plugins?">What Are Plugins?</h3>
 
 <p>While Spiceworks has a lot of functionality we think you’ll need, there still may be some tweaks or additions you want to make.  Plugins were designed as a way to allow you to make these changes or even allow us to ship functionality that we may not want to put into the product directly but still want to make available to you as an option.
-Plugins are external snippets of JavaScript code that <strong>plug in</strong> to Spiceworks and can utilize <a href="http://jquery.com/">jQuery</a> to help make things even easier for you. Spiceworks also provides you with <a href="/docs/in-spiceworks/plugin-api-overview-reference">our own API&#39;s</a> that are useful for performing common tasks within Spiceworks.</p>
+Plugins are external snippets of JavaScript code that <strong>plug in</strong> to Spiceworks and can utilize <a href="http://jquery.com/">jQuery</a> to help make things even easier for you. Spiceworks also provides you with <a href="/documentation/plugins/reference/">our own API&#39;s</a> that are useful for performing common tasks within Spiceworks.</p>
 
 <p>A plugin pretty much lives within the context of the user’s browser and there is very little code that executes on the backend servers,  outside of a few of the provided Spiceworks APIs.   Spiceworks has events that will load the plugins on top of the page, after the page loads.  This gives them a lot of flexibility as to what they can do.  Some examples would be:</p>
 
@@ -109,7 +109,7 @@ Plugins are external snippets of JavaScript code that <strong>plug in</strong> t
 
 <ul>
 <li>Mouse over <strong>Insert Code</strong> and select <strong>Plugin Configuration</strong>. Then change the values to what you need them to be.</li>
-<li>For more information on how to add additional fields, including drop-down (list) menus, check out the <a href="/docs/in-spiceworks/plugin-settings-guide">Plugin Configuration Tutorial</a>.</li>
+<li>For more information on how to add additional fields, including drop-down (list) menus, check out the <a href="settings.html">Plugin Configuration Tutorial</a>.</li>
 </ul></li>
 </ul>
 
@@ -119,7 +119,7 @@ Plugins are external snippets of JavaScript code that <strong>plug in</strong> t
 <li><strong>What are you changing?</strong> Are you making a new dashboard widget, a change to the user portal, or just changing the application in general?<br>
 
 <ul>
-<li><strong>Widget:</strong> If you are making a new widget, the best place to start is with the Widget Type preexisting code in Spiceworks.  To access this code, hover your mouse over <strong>Insert Code</strong> and select <strong>Widget Type</strong>.  This will insert the base code to create a new widget.  For more information on widget type plugins, check out the <a href="/docs/in-spiceworks/widget-plugin-guide">Widget Plugin Tutorial</a>.</li>
+<li><strong>Widget:</strong> If you are making a new widget, the best place to start is with the Widget Type preexisting code in Spiceworks.  To access this code, hover your mouse over <strong>Insert Code</strong> and select <strong>Widget Type</strong>.  This will insert the base code to create a new widget.  For more information on widget type plugins, check out the <a href="your-first-plugin.html">Widget Plugin Tutorial</a>.</li>
 <li><strong>Other prewritten codes:</strong> You can also use preexisting code from the <strong>Insert Code</strong> drop-down menu to run reports, add navigation links, and add messages to Spiceworks.</li>
 <li><strong>User Portal:</strong> If you want to make a change to the user portal, you&#39;re going to need to use the <code>SPICEWORKS.portalv2</code> API.</li>
 <li><strong>Inventory:</strong> If you want to make a change to the Spiceworks Inventory, you&#39;ll use the <code>SPICEWORKS.app.Inventory</code> API.<br></li>
@@ -131,7 +131,7 @@ Plugins are external snippets of JavaScript code that <strong>plug in</strong> t
 <h3 id="using-multiple-files-for-a-plugin">Using Multiple Files For A Plugin</h3>
 
 <p>If you store code in separate files and use those files to make a single plugin, you&#39;ll get cleaner-looking code that is easier to reuse and debug.  For example, it’s very common to have your styles in a separate CSS file, and even separate HTML and JavaScript files when you have a lot of code. In order to support this programming practice, Spiceworks allows you to define and include various types of files when creating a plugin.  We also allow you to upload images that you are using within the plugin so that you are not required to host the image somewhere else.
-See <a href="/docs/in-spiceworks/multiple-files-plugin-guide">this tutorial</a> for an example of adding CSS files and images.  See <a href="/docs/in-spiceworks/html-plugin-tutorial">this tutorial</a> for an example of how to use separate HTML files.</p>
+See <a href="multi-file-plugins.html">this tutorial</a> for an example of adding CSS files and images.  See <a href="/docs/in-spiceworks/html-plugin-tutorial">this tutorial</a> for an example of how to use separate HTML files.</p>
 
 <h3 id="code-templates">Code Templates</h3>
 
@@ -140,20 +140,20 @@ See <a href="/docs/in-spiceworks/multiple-files-plugin-guide">this tutorial</a>
 <ul>
 <li><strong>Widget Type:</strong> This will insert the base code for a dashboard widget.  This baseline model is set up to simply display the text <strong>Hello World</strong> in a window on the Dashboard, but you can change it to build up to as complex a widget as you care to make.</li>
 <li><strong>Portal Widget Type:</strong> This will insert the base code for a User Portal widget. This baseline model is set up to simply display the text <strong>Hello World</strong> in a window in the User Portal, but you can change it to build up to as complex a widget as you care to make.</li>
-<li><strong>Navigation Item:</strong> This will insert the base code to have a new item on the navigation panel under <strong>My Tools</strong>.  By default, the code is configured to add a link titled <strong>My Page</strong> to link to a page that simply says <strong>Hello World</strong> but this can be changed to accomplish many things.  Check out the <a href="/docs/in-spiceworks/report-plugin-guide">Run Report Tutorial</a> for an example of using this tool to display a report.</li>
+<li><strong>Navigation Item:</strong> This will insert the base code to have a new item on the navigation panel under <strong>My Tools</strong>.  By default, the code is configured to add a link titled <strong>My Page</strong> to link to a page that simply says <strong>Hello World</strong> but this can be changed to accomplish many things.  Check out the <a href="reporting.html">Run Report Tutorial</a> for an example of using this tool to display a report.</li>
 </ul>
 
 <p><img alt="Insert code" src="http://community.spiceworks.com/wiki_attachments/insertcode.png" />{: .screenshot}</p>
 
 <ul>
-<li><strong>Run Report:</strong> This will insert the code that runs a report of your choosing.  This code is not useful by itself, but you could add it to a widget or navigation item to put it somewhere useful.  You will need to add information to tell Spiceworks what kind of information to display.  You can learn more about how to put a report in a plugin by checking out the <a href="/docs/in-spiceworks/report-plugin-guide">Run Report Plugin Tutorial</a>.</li>
-<li><strong>Add Message:</strong> This will insert a snippet of code that displays a message at the top of Spiceworks.  You can learn more about this type of plugin at the <a href="/docs/in-spiceworks/message-plugin-guide">Message Plugin Tutorial</a>.</li>
+<li><strong>Run Report:</strong> This will insert the code that runs a report of your choosing.  This code is not useful by itself, but you could add it to a widget or navigation item to put it somewhere useful.  You will need to add information to tell Spiceworks what kind of information to display.  You can learn more about how to put a report in a plugin by checking out the <a href="reporting.html">Run Report Plugin Tutorial</a>.</li>
+<li><strong>Add Message:</strong> This will insert a snippet of code that displays a message at the top of Spiceworks.  You can learn more about this type of plugin at the <a href="messaging.html">Message Plugin Tutorial</a>.</li>
 <li><strong>Plugin Configuration:</strong> This will insert the code that adds a configuration option to the plugin.  This part of code will generally be at the beginning of the plugin.</li>
 </ul>
 
 <h3 id="spiceworks-apis">Spiceworks APIs</h3>
 
-<p>All basic Javascript Application Programming Interfaces (APIs) will work with the plugins feature. We&#39;ve also provided you with several APIs that are useful for common tasks in Spiceworks.  These APIs always start with <code>SPICEWORKS.</code> What follows dictates what is going to happen. After <code>SPICEWORKS.</code> you can further specify the API or there are a few methods that you can attach to specify when the function is going to occur. Check out the <a href="/docs/in-spiceworks/plugin-api-overview-reference">Spiceworks plugin API page</a> for more detailed information on these APIs, including what methods are available for each namespace.</p>
+<p>All basic Javascript Application Programming Interfaces (APIs) will work with the plugins feature. We&#39;ve also provided you with several APIs that are useful for common tasks in Spiceworks.  These APIs always start with <code>SPICEWORKS.</code> What follows dictates what is going to happen. After <code>SPICEWORKS.</code> you can further specify the API or there are a few methods that you can attach to specify when the function is going to occur. Check out the <a href="/documentation/plugins/reference/">Spiceworks plugin API page</a> for more detailed information on these APIs, including what methods are available for each namespace.</p>
 
 <ul>
 <li><code>SPICEWORKS.app</code>: You can use this API for all elements that are part of the application (as opposed to the user portal).
@@ -236,7 +236,7 @@ See <a href="/docs/in-spiceworks/multiple-files-plugin-guide">this tutorial</a>
 
 <ul>
 <li><a href="http://developers.spice.spiceworks.com/docs/in-spiceworks/plugin-data-api-reference">Data API</a></li>
-<li><a href="/docs/in-spiceworks/plugin-api-overview-reference">App, persistence, utils APIs</a></li>
+<li><a href="/documentation/plugins/reference/">App, persistence, utils APIs</a></li>
 </ul>
 
 <h3 id="helpful-plugin-pages">Helpful Plugin Pages</h3>
@@ -244,7 +244,7 @@ See <a href="/docs/in-spiceworks/multiple-files-plugin-guide">this tutorial</a>
 <ul>
 <li><a href="/docs/in-spiceworks#plugins">Plugins</a>: Information on downloading and using plugins.</li>
 <li><a href="/docs/in-spiceworks#plugins">Plugin Tutorials</a>: See several examples of plugins.  Here you can see the code to help learn how to write your own.</li>
-<li><a href="/docs/in-spiceworks/plugin-api-overview-reference">Spiceworks Plugin APIs</a>: See the code for the APIs that Spiceworks has created for you to use.</li>
+<li><a href="/documentation/plugins/reference/">Spiceworks Plugin APIs</a>: See the code for the APIs that Spiceworks has created for you to use.</li>
 <li><a href="http://community.spiceworks.com/group/show/300">Extending Spiceworks Group</a>: This is the group to join to discuss plugins with other Spiceworks users.</li>
 <li><a href="http://community.spiceworks.com/plugin">Plugin Directory</a>: Here you can download the plugins that have been created and deemed working.</li>
 </ul>
