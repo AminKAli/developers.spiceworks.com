@@ -16858,13 +16858,15 @@ body.index {
       margin-bottom: 16px; }
       /* line 30, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
       body.index section.hero .buttons-wrapper .btn {
-        width: 226px;
-        margin-right: 30px; }
-  /* line 36, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+        width: 254px; }
+        /* line 33, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+        body.index section.hero .buttons-wrapper .btn + .btn {
+          margin-left: 30px; }
+  /* line 39, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
   body.index section.features {
     background-color: #f2f2f2;
     color: #4d5f6d; }
-    /* line 40, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+    /* line 43, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
     body.index section.features figure {
       width: 32%;
       display: inline-block;
@@ -16872,37 +16874,37 @@ body.index {
       margin-right: 1.5%;
       margin-top: 8px;
       margin-bottom: 12px; }
-      /* line 48, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+      /* line 51, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
       body.index section.features figure h2 {
         font-size: 1.8em;
         margin-top: 22px;
         margin-bottom: 18px; }
-      /* line 53, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+      /* line 56, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
       body.index section.features figure p {
         font-size: .95em; }
-      /* line 57, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+      /* line 60, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
       body.index section.features figure:last-of-type {
         margin-right: 0; }
-  /* line 62, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+  /* line 65, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
   body.index section.app-center {
     background-color: #fff;
     text-align: left; }
-    /* line 67, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+    /* line 70, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
     body.index section.app-center .copy-wrapper {
       float: left;
       width: 55%; }
-    /* line 71, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+    /* line 74, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
     body.index section.app-center .image-wrapper {
       float: right;
       width: 39%;
       margin-bottom: 60px;
       margin-top: 16px; }
-  /* line 82, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+  /* line 85, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
   body.index section.faq {
     border-top: 1px solid lightgray;
     padding-top: 1em;
     padding-bottom: 1em; }
-    /* line 87, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
+    /* line 90, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
     body.index section.faq p {
       font-size: 1.3em; }
 
