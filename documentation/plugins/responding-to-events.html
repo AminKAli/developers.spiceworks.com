@@ -75,7 +75,7 @@
 <p>There are plenty of times you would want actions only to occur when certain events happen. This tutorial will show you the basics of how to use the Spiceworks APIs to achieve this.</p>
 
 <ul>
-<li>Create a new plugin <a href="/docs/in-spiceworks/creating-your-first-plugin-tutorial">as before</a></li>
+<li>Create a new plugin <a href="your-first-plugin.html">as before</a></li>
 <li>Add the following code:</li>
 </ul>
 <pre class="highlight javascript"><code>  <span class="nx">SPICEWORKS</span><span class="p">.</span><span class="nx">portalv2</span><span class="p">.</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
@@ -92,7 +92,7 @@
 
 <p>In this example, we&#39;re showing you how to respond to an event in Spiceworks.  In this case, the event is that the user portal is &quot;ready&quot;, that is to say, it is done loading and ready for whatever action you want to take.</p>
 
-<p>Events like this one exist throughout the app.  For a full list of events, check out the <a href="/docs/in-spiceworks/plugin-api-overview-reference">Spiceworks plugin API</a>.</p>
+<p>Events like this one exist throughout the app.  For a full list of events, check out the <a href="/documentation/plugins/reference/">Spiceworks plugin API</a>.</p>
 
 <p>Some actions, like adding a widget type or navigation item, will be automatically scoped to the appropriate areas of the product.  But sometimes, a plugin author will need to really dig into some particular area of the product in order to add a feature.  Responding to events will allow them to do this.</p>
 
