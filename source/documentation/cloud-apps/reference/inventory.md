@@ -121,6 +121,7 @@ item):
   "online_at": "2015-02-04T13:50:48-08:00",
   "online": true,
   "up_time": null,
+  "note": "This computer previously belonged to James before handing it was handed off to Harry(IT)",
   "owner": {
     "avatar_path": "/images/icons/medium/person-avatar-admin.png",
     "department": "IT",
@@ -338,6 +339,7 @@ item):
   "online_at": "2015-02-04T17:18:18-06:00",
   "online": true,
   "up_time": null,
+  "note": "This switch has a tendency to freeze. A restart usually fixes it.",
   "owner": null,
   "site": {
     "name": "Central Server",
@@ -439,6 +441,7 @@ Example response for a user-defined asset or an unknown device on the network:
   "online_at": null,
   "online": true,
   "up_time": null,
+  "note": "This printer is located under Scott's desk.",
   "owner": {
     "avatar_path": "/images/icons/medium/person-avatar-admin.png",
     "department": "IT",
